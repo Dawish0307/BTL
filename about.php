@@ -23,7 +23,7 @@
         </a>
         <ul class="nav-links">
             <li><a href="index.php">Trang Chủ</a></li>
-            <li><a href="map.php">Bản Đồ</a></li>
+            <li><a href="api/maps.php">Bản Đồ</a></li>
             <li><a href="about.php" class="nav-active">Giới Thiệu</a></li>
             <li><a href="destinations.php">Điểm Đến</a></li>
             <li><a href="contact.php">Liên Hệ</a></li>
@@ -32,7 +32,7 @@
             <?php if ($isLoggedIn): ?>
             <div class="user-menu">
                 <button class="btn-user" id="userMenuBtn">
-                    <span class="user-avatar"><?= $avatarLetter ?></span>
+                    <span class="user-avatar"><?= strtoupper(mb_substr($userName, 0, 1)) ?></span>
                     <span><?= htmlspecialchars($userName) ?></span>
                     <svg width="12" height="12" viewBox="0 0 12 12"><path d="M2 4l4 4 4-4" stroke="currentColor" fill="none" stroke-width="1.5"/></svg>
                 </button>
