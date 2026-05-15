@@ -16,6 +16,7 @@ gialai_tourism/
 ├── api/
 │   ├── auth.php        ← API đăng nhập / đăng ký / đăng xuất
 │   └── destinations.php← API danh sách địa điểm
+│   ├── maps.php        ← bản đồ gồm các địa điểm
 ├── css/
 │   ├── style.css       ← CSS trang chủ
 │   └── auth.css        ← CSS trang xác thực
