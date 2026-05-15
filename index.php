@@ -35,7 +35,7 @@ $userName = $_SESSION['user_name'] ?? '';
         </ul> -->
         <ul class="nav-links">
             <li><a href="index.php" class="active">Trang Chủ</a></li>
-            <li><a href="map.php">Bản Đồ</a></li>
+            <li><a href="api/maps.php">Bản Đồ</a></li>
             <li><a href="about.php">Giới Thiệu</a></li>
             <li><a href="destinations.php">Điểm Đến</a></li>
             <li><a href="contact.php">Liên Hệ</a></li>
